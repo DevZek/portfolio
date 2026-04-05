@@ -9,8 +9,8 @@ const projects = [
     description: "A personal portfolio built to showcase my projects and skills...",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Resend"],
     live: "https://yoursite.vercel.app",
-    github: "https://github.com/you/portfolio",
-    image: "/images/portfolio.png",  
+    github: "https://github.com/DevZek/portfolio",
+    image: "/images/portfolio.PNG",  
   },
 ];
 
