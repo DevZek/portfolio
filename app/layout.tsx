@@ -9,7 +9,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 }
 
 export const metadata = {
-  title: "Ezekiël Van Daele — Developer Portfolio",
+  title: "Portfolio Ezekiel Van Daele",
   description: "Full stack and backend developer based near Gent.",
+  icons: {
+    icon: "/logo.svg",  
+  },
 }
 
