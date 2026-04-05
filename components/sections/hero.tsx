@@ -18,15 +18,8 @@ export default function Hero() {
       />
 
       <Container className="relative flex flex-col">
-        <p
-          className="text-xs uppercase tracking-widest text-zinc-500 mb-6"
-          style={{ animation: "fadeUp 1s ease both" }}
-        >
-          // available for work
-        </p>
-
         <h1
-          className="font-display text-[clamp(3.5rem,9vw,8rem)] font-extrabold leading-none tracking-tighter mb-8"
+          className="font-display text-[clamp(2.5rem,6vw,7rem)] font-extrabold leading-none tracking-tighter mb-8"
           style={{ animation: "fadeUp 0.8s 0.1s ease both" }}
         >
           Van Daele
@@ -39,7 +32,7 @@ export default function Hero() {
           style={{ animation: "fadeUp 0.8s 0.2s ease both" }}
         >
           Software developer building clean, fast, and memorable experiences.
-          Focused on React, Next.js, and making the web feel good.
+          Focused on back-end and full-stack development.
         </p>
 
         <div
@@ -47,10 +40,16 @@ export default function Hero() {
           style={{ animation: "fadeUp 0.8s 0.3s ease both" }}
         >
           <a
-            href="#projects"
+            href="#projects" 
             className="inline-flex items-center gap-2 px-8 py-3 bg-green-400 text-black text-sm font-medium tracking-wide hover:bg-green-300 transition-all duration-200 hover:-translate-y-0.5"
           >
             View my work →
+          </a>
+           <a
+            href="/CV_EVD.pdf" download
+            className="inline-flex items-center gap-2 px-8 py-3 bg-cyan-400 text-black text-sm font-medium tracking-wide hover:bg-cyan-300 transition-all duration-200 hover:-translate-y-0.5"
+          >
+            Download CV →
           </a>
           <a
             href="#contact"

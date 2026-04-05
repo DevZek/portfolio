@@ -8,3 +8,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   )
 }
 
+export const metadata = {
+  title: "Ezekiël Van Daele — Developer Portfolio",
+  description: "Full stack and backend developer based near Gent.",
+}
+

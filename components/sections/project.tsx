@@ -3,29 +3,14 @@ import SectionLabel from "@/components/ui/SectionLabel";
 import ProjectCard from "@/components/ui/ProjectCard";
 
 const projects = [
-  {
+   {
     number: "01",
-    title: "Project One",
-    description:
-      "A short description of what this project does and what problem it solves.",
-    tags: ["React", "TypeScript", "Node.js"],
-    link: "#",
-  },
-  {
-    number: "02",
-    title: "Project Two",
-    description:
-      "A short description of what this project does and what problem it solves.",
-    tags: ["Next.js", "Tailwind"],
-    link: "#",
-  },
-  {
-    number: "03",
-    title: "Project Three",
-    description:
-      "A short description of what this project does and what problem it solves.",
-    tags: ["JavaScript", "CSS", "API"],
-    link: "#",
+    title: "Portfolio",
+    description: "A personal portfolio built to showcase my projects and skills...",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Resend"],
+    live: "https://yoursite.vercel.app",
+    github: "https://github.com/you/portfolio",
+    image: "/images/portfolio.png",  
   },
 ];
 

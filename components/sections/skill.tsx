@@ -12,8 +12,7 @@ const skills = [
   { name: "Figma", score: 6 },
   { name: "HTML", score: 10 },
   { name: "CSS", score: 9 },
-  { name: "REST APIs", score: 6 },
-  { name: "Framer Motion", score: 4 },
+  { name: "REST APIs", score: 6 }
 ]
 
 export default function Skills() {
